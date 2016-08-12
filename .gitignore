@@ -1,0 +1,8 @@
+# Remove swap files
+*.swp
+
+# The .netrwhist file contains a history of all edits to the .vim directory
+# git will take care of versioning from now on, so this file is redundant.
+# Either way, I don't want to check it in to VCS for the world to see
+.netrwhist
+
