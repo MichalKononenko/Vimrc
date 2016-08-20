@@ -19,6 +19,8 @@ Plugin 'Valloric/YouCompleteMe'
 " Add a decent Python code folding library
 Plugin 'tmhedberg/SimpylFold'
 
+Plugin 'scrooloose/nerdtree'
+
 " End call to vundle package manager
 call vundle#end()
 filetype plugin indent on

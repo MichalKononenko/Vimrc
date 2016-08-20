@@ -6,3 +6,6 @@
 # Either way, I don't want to check it in to VCS for the world to see
 .netrwhist
 
+# Remove all bundle files
+bundle
+
