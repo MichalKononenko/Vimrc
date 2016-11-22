@@ -21,6 +21,8 @@ Plugin 'tmhedberg/SimpylFold'
 
 Plugin 'scrooloose/nerdtree'
 
+Bundle 'jistr/vim-nerdtree-tabs'
+
 " End call to vundle package manager
 call vundle#end()
 filetype plugin indent on
@@ -39,3 +41,6 @@ set foldmethod=syntax
 
 " Set splitting to right
 set splitright
+
+" Give me an 80 character margin on the right side of Vim
+set colorcolumn=80
