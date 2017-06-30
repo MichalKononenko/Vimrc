@@ -9,3 +9,6 @@
 # Remove all bundle files
 bundle
 
+# Ignore all vim-plug files
+plugged
+

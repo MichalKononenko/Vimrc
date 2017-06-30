@@ -1,31 +1,26 @@
-" Vundle configuration data
-set nocompatible
-filetype off
-
-" VUNDLE PACKAGES
+" Vim plug packages
 
 " Set the runtime path to include Vundle. Initialize Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin()
 
 " PLACE ALL VUNDLE PACKAGES HERE
 
 " Let Vundle manage Vundle
-Plugin 'VundleVim/Vundle.vim'
-
-" YouCompleteMe code completion library.
-Plugin 'Valloric/YouCompleteMe'
+Plug 'VundleVim/Vundle.vim'
 
 " Add a decent Python code folding library
-Plugin 'tmhedberg/SimpylFold'
+Plug 'tmhedberg/SimpylFold'
 
-Plugin 'scrooloose/nerdtree'
+" Code completion library
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
 
-Bundle 'jistr/vim-nerdtree-tabs'
+" File browser
+Plug 'scrooloose/nerdtree'
+
 
 " End call to vundle package manager
-call vundle#end()
-filetype plugin indent on
+call plug#end()
 
 " END VUNDLE PACKAGES
 
